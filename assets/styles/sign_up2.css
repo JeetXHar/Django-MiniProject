@@ -1,0 +1,37 @@
+#space{
+	height: 10px;
+	width: 100%;
+}
+h5{
+	font-size: 15px;
+	margin-top: -10px;
+}
+#name{
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+}
+.form_login {
+	position : absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3%;
+	background: white;
+	width: 500px;
+}
+#float{
+	position: relative;
+	left: 15px;
+}
+#font{
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+}
+.center-block {
+	border: 1px solid black;
+  text-align: center;
+}

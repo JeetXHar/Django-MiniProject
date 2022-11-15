@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+#outer{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     height: 800px;
+     width: 100%;
+}
+#left, #right{
+	height: auto;
+	width: 45%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+.pad{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.img{
+   margin-top: 10px;
+}
